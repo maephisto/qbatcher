@@ -110,4 +110,20 @@ describe('QBatcher specification:', function () {
             });
     });
 
+    it('should return an array of results, when used with native ES6 Promises', function (done) {
+        this.timeout(1000000);
+
+        QBatcher.run([ 1, 2, 3, 4, 5], function (payload) {
+
+                return new Promise(function(resolve) {
+                    setTimeout(function() { resolve(payload * 100) }, 100);
+                });
+
+            }, 2)
+            .then(function (results) {
+                expect(results).to.eql([ 100, 200, 300, 400, 500]);
+                done();
+            });
+    });
+
 });
