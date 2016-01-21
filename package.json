@@ -1,6 +1,6 @@
 {
   "name": "qbatcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module that allows batching of async operations with optional time limits",
   "main": "qbatcher.js",
   "directories": {
