@@ -4,7 +4,7 @@
 
 Batch promises and/or limit them by time intervals.
 
-Suited for issueing request to rate limited APIS (e.g 50 requests/ 10 secconds)
+Suited for issuing request to rate limited APIS (e.g 50 requests/ 10 seconds)
 
 ## Installation
 
