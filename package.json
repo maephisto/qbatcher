@@ -1,6 +1,6 @@
 {
   "name": "qbatcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module that allows batching of async operations with optional time limits (e.g. 50 API requests at a time or 50 API requests / 10 seconds)",
   "main": "qbatcher.js",
   "directories": {
@@ -9,10 +9,9 @@
   "scripts": {
     "test": "mocha test/**/*"
   },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/maephisto/qbatcher.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maephisto/qbatcher.git"
   },
   "keywords": [
     "q",
