@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/maephisto/qbatcher.svg?branch=master)](https://travis-ci.org/maephisto/qbatcher)
+
 # QBatcher
 
 Batch promises and/or limit them by time intervals.
