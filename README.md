@@ -3,7 +3,8 @@
 # QBatcher
 
 Batch promises and/or limit them by time intervals.
-Suited for issueing request to rate limited APIS
+
+Suited for issueing request to rate limited APIS (e.g 50 requests/ 10 secconds)
 
 ## Installation
 
@@ -16,6 +17,7 @@ npm install qbatcher
 ```js
 QBatcher.run(array: Collection, i => promise: Iteratee, int: batchSize, int: intervalLimit (milliseconds) )
 ```
+Keep in mind that the interval limit should be milliseconds
 
 The `Promise: Iteratee` will be called for each element in the Collection.
 
