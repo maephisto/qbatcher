@@ -17,7 +17,7 @@ npm install qbatcher
 QBatcher.run(array: Collection, i => promise: Iteratee, int: batchSize, int: intervalLimit (milliseconds) )
 ```
 
-The `Promise: Iteratee` will be called after each batch.
+The `Promise: Iteratee` will be called for each element in the Collection.
 
 ## Use:
 
