@@ -1,0 +1,27 @@
+{
+  "name": "qbatcher",
+  "version": "1.0.0",
+  "description": "A module that allows batching async operations",
+  "main": "qbatcher.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*"
+  },
+  "keywords": [
+    "q",
+    "promise",
+    "batch",
+    "batches"
+  ],
+  "author": "Marius Mischie <m@marius.in>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
