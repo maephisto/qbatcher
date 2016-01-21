@@ -30,7 +30,7 @@ QBatcher.run([ 1, 2, 3, 4, 5], function (payload) {
             setTimeout(function() { resolve(payload * 100) }, 100);
         });
 
-    }, 2)
+    }, 2, 5000)
     .then(function (results) {
         console.log(results);
     });
