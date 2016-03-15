@@ -1,6 +1,6 @@
 {
   "name": "qbatcher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A module that allows batching of async operations with optional time limits (e.g. 50 API requests at a time or 50 API requests / 10 seconds)",
   "main": "qbatcher.js",
   "directories": {
